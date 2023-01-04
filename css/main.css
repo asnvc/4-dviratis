@@ -15,7 +15,10 @@ body{
     margin-left: calc(50% - 500px);
     display: inline-block;
     margin-top: 30px;
-    background-color: pink;
+}
+
+.container:nth-child(2){
+    margin-top: 60px;
 }
 
 .logo{
@@ -42,8 +45,56 @@ body{
     border-bottom: 3px solid transparent;
 }
 
- .link:hover{
+.link:last-child{
+    margin-right: 20px;
+}
+
+.link:hover{
     border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
     border-image-slice: 1 
 }
 
+.left-collum{
+    float: left;
+    width: 60%;
+}
+
+.right-collum{
+    float: right;
+    width: 40%;
+}
+
+.main-tittle{
+    display: inline-block;
+    margin-top: 2.5em;
+    margin-left: 1em;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 1em;
+}
+
+.main-text{
+    width: 90%;
+    margin-top: 2.5em;
+    margin-left: 2.6em;
+    font-size: 13px;
+}
+
+.button{
+    display: inline-block;
+    margin-top: 2em;
+    margin-left: 2em;
+    padding: 15px;
+    padding-left: 70px;
+    padding-right: 70px;
+    border-radius: 999em;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #8052e1;
+}
+
+.button:hover{
+    box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.2) ;
+}
