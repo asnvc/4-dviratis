@@ -35,7 +35,7 @@ Would like to run this project locally? Open terminal and follow these steps:
 
 1. Clone the repo
 ```
-git clone https://github.com/xzcjdvd/4-bananas
+git clone https://github.com/xzcjdvd/4-bananas.git
 ```
 2. Install NPM packages
 ```
